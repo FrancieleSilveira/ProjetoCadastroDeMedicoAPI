@@ -1,0 +1,28 @@
+###
+POST http://localhost:3000/medico/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Jéssica Milsted",
+    "crm": "456",
+    "especialidade": "pediatria"
+}
+
+###
+GET http://localhost:3000/medico/buscar/456
+
+###
+GET http://localhost:3000/medico/listar
+
+###
+PUT http://localhost:3000/medico/alterar
+Content-Type: application/json
+
+{
+    "nome": "Jéssica Milsted",
+    "crm": "456",
+    "especialidade": "ortopedia"
+}
+
+###
+DELETE http://localhost:3000/medico/remover/456
