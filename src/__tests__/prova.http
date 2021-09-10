@@ -3,9 +3,9 @@ POST http://localhost:3000/medico/cadastrar
 Content-Type: application/json
 
 {
-    "nome": "Jéssica Milsted",
-    "crm": "456",
-    "especialidade": "pediatria"
+    "nome": "Franciele Silveira",
+    "crm": "123",
+    "especialidade": "ortopedia"
 }
 
 ###
@@ -19,10 +19,10 @@ PUT http://localhost:3000/medico/alterar
 Content-Type: application/json
 
 {
-    "nome": "Jéssica Milsted",
-    "crm": "456",
+    "nome": "Franciele do Carmo Silveira",
+    "crm": "123",
     "especialidade": "ortopedia"
 }
 
 ###
-DELETE http://localhost:3000/medico/remover/456
+DELETE http://localhost:3000/medico/remover/123
